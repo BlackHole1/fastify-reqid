@@ -3,6 +3,7 @@
 ![CI](https://github.com/BlackHole1/fastify-reqid/workflows/CI/badge.svg)
 [![NPM version](https://img.shields.io/npm/v/fastify-reqid.svg?style=flat)](https://www.npmjs.com/package/fastify-reqid)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://standardjs.com/)
+[![NPM size](https://img.shields.io/bundlephobia/min/fastify-reqid)](https://www.npmjs.com/package/fastify-reqid)
 
 A plugin for Fastify that adds support for `request-id`.
 
@@ -20,7 +21,6 @@ npm i fastify-reqid
 pnpm add fastify-reqid
 
 # yarn
-
 yarn add fastify-reqid
 ```
 
