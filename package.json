@@ -1,6 +1,6 @@
 {
   "name": "fastify-reqid",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Fastify Request ID Plugin",
   "main": "index.js",
   "types": "index.d.ts",
@@ -25,6 +25,14 @@
     "index.d.ts"
   ],
   "author": "Black-Hole <158blackhole@gmail.com>",
+  "homepage": "https://github.com/BlackHole1/fastify-reqid#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BlackHole1/fastify-reqid.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BlackHole1/fastify-reqid/issues"
+  },
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^18.0.0",
@@ -50,5 +58,8 @@
   },
   "tsd": {
     "directory": "test"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
