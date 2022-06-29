@@ -11,6 +11,8 @@ const defaultOptions = {
   addResponseHeader: 'x-request-id'
 }
 
+// ss
+
 function fastifyReqID (fastify, opts, done) {
   fastify.decorateRequest('reqID', '')
 
