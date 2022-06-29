@@ -12,4 +12,4 @@ on:
 
 jobs:
   test:
-    uses: BlackHole1/fastify-workflows-community/.github/workflows/plugin-ci-pnpm.yml@main
+    uses: BlackHole1/fastify-workflows-community/.github/workflows/plugin-ci-pnpm.yml@fix-ci-failed
