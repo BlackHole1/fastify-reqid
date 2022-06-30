@@ -2,9 +2,12 @@ name: CI
 
 on:
   push:
+    branches:
+      - main
     paths-ignore:
       - 'docs/**'
       - '*.md'
+
   pull_request:
     paths-ignore:
       - 'docs/**'
@@ -12,4 +15,6 @@ on:
 
 jobs:
   test:
-    uses: BlackHole1/fastify-workflows-community/.github/workflows/plugin-ci-pnpm.yml@v1
+    uses: BlackHole1/fastify-workflows-community/.github/workflows/plugin-ci-pnpm.yml@v1.1
+    with:
+      coveralls: true

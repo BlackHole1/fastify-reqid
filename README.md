@@ -4,6 +4,7 @@
 [![NPM version](https://img.shields.io/npm/v/fastify-reqid.svg?style=flat)](https://www.npmjs.com/package/fastify-reqid)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://standardjs.com/)
 [![NPM size](https://img.shields.io/bundlephobia/min/fastify-reqid)](https://www.npmjs.com/package/fastify-reqid)
+[![Coverage Status](https://coveralls.io/repos/github/BlackHole1/fastify-reqid/badge.svg?branch=main)](https://coveralls.io/github/BlackHole1/fastify-reqid?branch=main)
 
 A plugin for Fastify that adds support for `request-id`.
 
