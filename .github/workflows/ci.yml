@@ -15,6 +15,6 @@ on:
 
 jobs:
   test:
-    uses: BlackHole1/fastify-workflows-community/.github/workflows/plugin-ci-pnpm.yml@v1.1
+    uses: fastify-userland/workflows/.github/workflows/plugin-ci-pnpm.yml@v1
     with:
       coveralls: true
