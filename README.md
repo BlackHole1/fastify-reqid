@@ -6,6 +6,9 @@
 [![NPM size](https://img.shields.io/bundlephobia/min/fastify-reqid)](https://www.npmjs.com/package/fastify-reqid)
 [![Coverage Status](https://coveralls.io/repos/github/BlackHole1/fastify-reqid/badge.svg?branch=main)](https://coveralls.io/github/BlackHole1/fastify-reqid?branch=main)
 
+> **Warning**
+> Move to: [fastify-userland/request-id](https://github.com/fastify-userland/request-id)
+
 A plugin for Fastify that adds support for `request-id`.
 
 Supports Fastify versions 4.x.
